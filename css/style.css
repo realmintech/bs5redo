@@ -50,14 +50,10 @@ ul li:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-
-
 #pixtext >p{
   width: 100%;
 }
-#pixtext{
-  margin-top: 35%;
-}
+
 @media(max-width:320px){
   .text{
     margin-top: 40%;
@@ -77,5 +73,8 @@ ul li:hover:not(.active) {
   }
   #stock > img{
     width: 100%;
+  }
+  #pixtext > h3{
+    margin-top: 55%;
   }
 }
