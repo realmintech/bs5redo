@@ -46,7 +46,7 @@ li a.active {
   color: white;
 }
 
-li a:hover:not(.active) {
+ul li:hover:not(.active) {
   background-color: #555;
   color: white;
 }
@@ -55,11 +55,27 @@ li a:hover:not(.active) {
 #pixtext >p{
   width: 100%;
 }
+#pixtext{
+  margin-top: 35%;
+}
 @media(max-width:320px){
   .text{
     margin-top: 40%;
   }
   .navbar{
+    width: 100%;
+  }
+  *{
+    height: auto;
+  }
+  img{
+    height: auto;
+    width: 100%;
+  }
+  #bgimg{
+    width: 100%;
+  }
+  #stock > img{
     width: 100%;
   }
 }
